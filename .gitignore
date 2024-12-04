@@ -1,0 +1,26 @@
+# Ignore system files
+.DS_Store
+Thumbs.db
+NTUSER.*
+*.blf
+*.regtrans-ms
+
+# Ignore application logs and caches
+*.log
+AppData/
+
+# Ignore compiled code and build artifacts
+node_modules/
+bin/
+obj/
+
+# Ignore IDE/editor settings
+.vscode/
+.idea/
+*.suo
+*.user
+
+# Ignore other specific files
+*.lock
+package-lock.json
+angular.json
